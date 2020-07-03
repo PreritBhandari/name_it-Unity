@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 675570591, guid: 1899ff839c8662348aae8cec8fb8e5b6, type: 3}
+  m_Name: Flexbox4Unity
+  m_EditorClassIdentifier: 
+  debugAutoUpgrades: 0
+  wasLoadedFromFile: 1
+  settingsFilePath: Flexbox4Unity/Flexbox4Unity.asset
+  hasDisplayedFirstStartup: 1
+  lastRuntimeVersion:
+    major: 2
+    minor: 4
+    patch: 0
+  invoiceNumber: 
+  layoutAlgorithm: {fileID: 11400000, guid: 3bbba854996c941bd8c1f744f0e53dca, type: 2}
+  drawFlexHierarchyUsing: 0
+  flexHierarchyContainersOutlineColour: {r: 0, g: 1, b: 0, a: 1}
+  flexHierarchyGizmosInsetAmount: 10
+  debugRefreshTriggers: 0
+  debugShowForceLayoutButton: 0
