@@ -9,6 +9,12 @@ public class InputButton : MonoBehaviour
     private Button Button;
     private Text ButtonLabel;
 
+
+
+
+
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +23,22 @@ public class InputButton : MonoBehaviour
 
         if(!string.IsNullOrEmpty(Alphabet))
             ButtonLabel.text = Alphabet;
+       
+    }
+
+    public void ClickedButton()
+    {
+
+        Debug.Log(ButtonLabel.text);
+        name = ButtonLabel.text;  
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+       
         
     }
 }

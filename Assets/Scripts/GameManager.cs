@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public Button StartButton;
+
+    public Question[] Questions;
     // Start is called before the first frame update
     void Start()
     {
