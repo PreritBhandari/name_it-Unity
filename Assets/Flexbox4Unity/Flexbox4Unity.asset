@@ -21,7 +21,7 @@ MonoBehaviour:
     minor: 4
     patch: 0
   invoiceNumber: 
-  layoutAlgorithm: {fileID: 11400000, guid: 3bbba854996c941bd8c1f744f0e53dca, type: 2}
+  layoutAlgorithm: {fileID: 11400000, guid: 0a129cc4370b856058117833404c317e, type: 2}
   drawFlexHierarchyUsing: 0
   flexHierarchyContainersOutlineColour: {r: 0, g: 1, b: 0, a: 1}
   flexHierarchyGizmosInsetAmount: 10
