@@ -1,18 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
+
+//This script is attached in Root of the Home Scene!
 
 public class NameITGameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static NameITGameManager Instance { get; private set; }
+
+    private void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Debug.Log("Warning: multiple instances of " + this.name + " in scene!");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        GameDataManager.Instance.Init();
     }
 }
